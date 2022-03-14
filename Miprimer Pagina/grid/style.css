@@ -1,0 +1,47 @@
+html,body{
+    text-align: center;
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+
+main{
+min-height:100vh ;
+background-color: azure;
+ gap:8px;
+display: grid;
+justify-content: center;
+align-content: center;
+grid-template-columns:  200px 200px 200px 200px;
+grid-template-rows: 200px 200px 200px 200px;
+grid-auto-rows:200px ;
+grid-auto-columns: 200px;
+}
+/*hijos 7items*/
+main >*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcoral;
+}
+
+main > div:nth-child(10){
+    background-color: lightseagreen;
+    grid-column-start:3 ;
+    grid-column-end: 5;
+}
+
+main > div:nth-child(6){
+    background-color: aqua;
+    grid-column:2 /3 ;
+    
+    grid-row:2/4;
+}
+
+main > div:nth-child(1){
+    background-color: rgb(112, 134, 233);
+    grid-column:1 /  span 4 ;
+    
+    
+}

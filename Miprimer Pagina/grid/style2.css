@@ -1,0 +1,64 @@
+html,body{
+    text-align: center;
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
+
+main{
+min-height:100vh ;
+background-color: azure;
+ 
+display: grid;
+
+grid-template-columns:  auto 60% auto;
+grid-template-rows: 15% 10% 55% auto;
+grid-template-areas:
+"header header header"
+"nav nav nav"
+"aside main aside2"
+"footer footer footer"
+;
+
+}
+
+main >*{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+main > div:nth-child(1){
+    background-color: bisque;
+    grid-area: header;
+    /* grid-column: 1/ span 3; */
+}
+
+main > div:nth-child(2){
+    background-color: rgb(233, 156, 61);
+    grid-area: nav;
+    /* grid-column: 1/ span 3; */
+}
+
+main > div:nth-child(3){
+    grid-area: aside;
+    background-color: rgb(148, 105, 53);
+}
+
+main > div:nth-child(4){
+    grid-area: main;
+    background-color: rgb(75, 118, 199);
+}
+
+main > div:nth-child(5){
+    grid-area:aside2 ;
+    background-color: rgb(253, 148, 239);
+}
+
+main > div:nth-child(6){
+    background-color: rgb(211, 30, 120);
+    grid-area: footer;
+    /* grid-column: 1/ span 3; */
+}

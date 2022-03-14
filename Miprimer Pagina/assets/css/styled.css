@@ -1,0 +1,483 @@
+
+/*==========================Generals==================================*/
+
+html,* {
+    text-align: center;
+    max-width: border-box;
+    font-family:'Raleway', sans-serif;
+    transition: 1s;
+    
+}
+
+
+body {
+
+    max-width:border-box;
+    margin-left: 0;
+}
+ 
+
+
+a{
+    text-decoration: none;
+    
+}
+
+
+
+    
+
+   
+.text_medium{
+
+    color:rgb(163, 161, 161);
+    font-size: 80;
+
+    font-family: serif;
+    font-weight: bolder;
+}
+.text_medium2{
+
+    color:rgb(163, 161, 161);
+    font-size: 80;
+    
+    font-family: serif;
+    font-weight: bolder;
+}
+.text_medium2:hover{
+
+    color:#E74C3C;
+    font-size: 80;
+    transition: 1s;
+    
+    font-family: serif;
+    font-weight: bolder;
+}
+
+
+
+
+
+p {
+ color: #666;
+
+}
+
+
+
+
+
+.img{
+    width: 8%;
+    position:relative;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+
+/*=============================================== container Boxes==========================================================*/
+
+
+/* ======Header Box & Navigation==========*/
+.t{
+    transition: 2s;
+}
+
+.header{
+  display: flex;
+  position: fixed;
+z-index: 100;
+
+}
+
+.navBar{
+   display: flex;
+   position: fixed;
+   padding: 10px;
+   border-bottom: 1px solid black;
+   height: 2vh;
+   justify-content:space-around;
+   align-items:center;
+   max-width: border-box;
+   width: 100%;
+   margin-top: 0;
+      z-index: 100;
+      background-color: rgb(5, 0, 44);
+      position: fixed;
+      top:0; 
+      border-bottom: 1px solid rgba(0,0,0, 0.20);
+      box-shadow: 0px 0px 20px 0.25px rgba(76, 77, 78, 0.26);
+    }
+
+    .background_text{
+        color: #ddd;
+        font-size: 1.5em;
+        font-weight:400;
+    
+        padding: 0.4em 1em 0.4em 1em;
+        font-family:'Raleway',sans-serif;
+    }
+    .background_text:hover{
+        font-family:'Raleway',sans-serif;
+        color:#E74C3C;
+        transition: 1s;
+        font-size: 1.5em;
+        font-weight: 490;
+        padding: 0.4em 1em 0.4em 1em;
+    
+    }
+
+/*========================================== Main Content Box===============================================*/
+
+.boxContent{
+   border: 1px solid black;
+   height: 400vh;
+   width: border-box;
+   background-image: url(/assets/bg.jpg);
+   background-size:border-box;
+   /* position:relative; */
+   margin-top: 35px;
+   margin-left: 10px;
+
+}
+
+/*===========Seccion Home==============*/
+
+.secHome {
+     display: block;
+     flex-direction: column;
+    
+     height:99vh ;
+     width: 98%;
+     /* align-items: center; */
+     /* justify-content: space-around; */
+    }
+
+    .photo{
+    width: 24%;
+    overflow: hidden;
+
+     
+    display: block;
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 150px; 
+
+    
+    
+    }
+
+
+    .background_text1{
+        color: #ddd;
+        font-size: 2.5em;
+        font-weight:400;
+        
+        display: block;
+        position: absolute;
+        margin-left: 520px;
+        margin-top: 360px; 
+
+        z-index: 50;    
+        padding: 0.4em 1em 0.4em 1em;
+        font-family:'Raleway',sans-serif;
+    }
+    .background_text1:hover{
+        font-family:'Raleway',sans-serif;
+        color:#E74C3C;
+        transition: 1s;
+        font-size: 2.5em;
+        font-weight: 490;
+        z-index: 50;
+
+         
+        display: block;
+        position: absolute;
+        margin-left: 520px;
+        margin-top: 360px; 
+
+        padding: 0.4em 1em 0.4em 1em;
+    
+    }
+
+    .background_text2{
+        color: rgb(245, 248, 248);
+        font-size: 3.5em;
+        font-weight:700;
+        margin-left: -220px;
+        z-index: 50;
+
+         
+        display: block;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 410px; 
+
+
+    
+    
+        padding: 0.4em 1em 0.4em 1em;
+        font-family:'Raleway',sans-serif;
+    }
+    .background_text2:hover{
+        font-family:'Raleway',sans-serif;
+        color:#E74C3C;
+        transition: 1s;
+        font-size: 3.5em;
+        font-weight: 600;
+        padding: 0.4em 1em 0.4em 1em;
+        z-index: 50;
+
+         
+        display: block;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 410px; 
+    
+    }
+
+    
+    .background_text3{
+        color: #E74C3C;
+        font-size: 3.5em;
+        font-weight:700;
+        margin-left: -220px;
+        z-index: 50;
+
+         
+        display: block;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 350px; 
+
+
+    
+    
+        padding: 0.4em 1em 0.4em 1em;
+        font-family:'Raleway',sans-serif;
+    }
+    .background_text3:hover{
+        font-family:'Raleway',sans-serif;
+        color:#f3887c;
+        transition: 1s;
+        font-size: 3.5em;
+        font-weight: 600;
+        padding: 0.4em 1em 0.4em 1em;
+        z-index: 50;
+
+         
+        display: block;
+        position: absolute;
+        margin-left: 500px;
+        margin-top: 350px; 
+    
+    }
+
+    
+    .background_text4{
+        color: #ddd;
+        font-size: 2.5em;
+        font-weight:400;
+        margin-left: -220px;
+        z-index: 50;
+
+         
+        display: block;
+        position: absolute;
+        margin-left: 370px;
+        margin-top: 650px; 
+
+
+    
+    
+        padding: 0.4em 1em 0.4em 1em;
+        font-family:'Raleway',sans-serif;
+    }
+    .background_text4:hover{
+        font-family:'Raleway',sans-serif;
+        color:#E74C3C;
+        transition: 1s;
+        font-size: 2.5em;
+        font-weight: 400;
+        padding: 0.4em 1em 0.4em 1em;
+        z-index: 50;
+
+         
+        display: block;
+        position: absolute;
+        margin-left: 370px;
+        margin-top: 650px; 
+    
+    }
+
+
+/*======== Seccion About========*/
+.secAbout{
+    
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #666;
+    height:99vh ;
+    width: 98%;
+
+
+
+}
+
+
+
+/*==============Seccion Skills=============*/
+
+
+
+.secSkills{
+    
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #666;
+    height:99vh;
+    width: 98%;
+
+
+}
+
+
+
+/*===============Seccion Portfoliio=============*/
+
+
+
+
+
+.secPort{
+
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #666;
+    height:99vh;
+    width: 98%;
+
+
+
+}
+
+
+.logoIns{
+    width: 25%;
+}
+
+.logoIns:hover{
+    width: 26%;
+    transition: 1s;
+
+}
+
+
+
+
+
+/*================================================= Footer & Contact Box================================================*/
+
+
+
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(236, 232, 232, 0.603);
+    height:100vh;
+    width: border-box;
+    padding: 15px;
+    background-color: rgba(249, 249, 252, 0.377);
+    align-items: center;
+    justify-content:space-between;
+    position:static;
+    margin-left: 0;
+
+}
+
+
+.input-footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 10px ;
+    column-gap: 10px;
+    width: border-box;
+  }
+
+.input-message{
+   height: 150px;
+   width: 450px;
+   grid-column:  2/ 3;
+   grid-row: 1 / 4;
+   padding: 10px;
+   text-align:start;
+   text-align-last: auto;
+   
+
+}
+
+.inputs-footer{
+    width: 450px;
+    padding: 10px;
+
+}
+
+
+
+
+
+
+.links-footer > *{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+   align-items: center;
+   justify-content: space-around;
+}
+
+
+
+h4{
+    font-size: 70px;
+    font-family:'Raleway',sans-serif;
+    color: #666;
+}
+
+.inputText{
+    border: 2px solid #E5E5E5;
+    color: #858585;
+    font-family: inherit;
+    text-align: start;
+    border-radius: 8px;
+}
+
+
+
+.send-button {
+    background: url(/assets/images/racket-icon.png) no-repeat #E74C3C 17px 21px;
+    border: 1px solid #E74C3C;
+    border-radius: 8px;
+    font-size: 1.2em;
+    padding: 1em 2em 1em 3.2em;
+    margin: 0 auto;
+    display: inherit;
+    color:white;
+
+}
+
+.send-button:hover {
+    background: url(/assets/images/racket-icon.png) no-repeat #ee6556 17px 21px;
+    border: 1px solid #E74C3C;
+    border-radius: 8px;
+    font-size: 1.2em;
+    padding: 1em 2em 1em 3.2em;
+    margin: 0 auto;
+    display: inherit;
+    color:white;
+
+}
+
+.footer2{
+    color:#666;
+    font-family: monospace;
+    font-weight: bolder;
+    }
